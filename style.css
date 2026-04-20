@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url('assets/images/Netflix-Background-prueba-1.jpg');
+    background-size: max(1200px, 100vw);
+    position : relative;
+    background-repeat: no-repeat;
+
+
+}
+nav img{
+    color: red;
+    height: 180px;
+    width: 120px;
+    z-index: 10;
+    position: relative;
+}
+.nav{
+    display: flex;
+    margin :auto;
+    max-width: 85vw;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    fill: red;
+}
+
+.btn_black{
+    background:rgb(22, 19, 19);
+    opacity: 0.66;
+    color:white;
+    padding: 5px;
+    border:0.2mm solid white;
+    border-radius : 1mm;
+    padding-right : 30px;
+    padding-left : 30px;
+    position: relative;
+    z-index: 0;
+}
+.btn_red{
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 1mm;
+    position: relative;
+    z-index: 10;
+
+}
+.btn_black_down{
+    background-color: rgb(22, 19, 19);
+    opacity: 0.66;
+    color: black;
+    padding: 17px 30px;
+    border: 0.2mm double white;
+    border-radius: 1.5mm;
+    position: relative;
+    font-family: 'Martel Sans';
+    font-weight: bolder;
+    font-size:medium;
+    z-index: 0;
+}
+.btn_red_down{
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 1.5mm;
+    padding: 17px 40px;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Martel Sans' ;
+    position: relative;
+    z-index: 10;
+
+}
+
+.hero_btn{
+    padding: 2px 0;
+
+}
+.main{
+    justify-content: center;
+    background-image: url(assets/images/Netflix-Background-prueba-1.jpg);
+    height: 90vh;
+
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.main .box{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.666;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+}
+.hero{
+    height: 68.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    /* align-content: center; */
+    color: white;
+    position: relative;
+}
+.hero>:first-child{
+    font-size: 56px;
+    font-weight: 900;
+    font-family: 'Martel Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: rgb(255,255,255);
+    line-height: 70px;
+
+}
+.hero>:nth-child(2){
+    font-size: 56px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Martel Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: rgb(255,255,255);
+    line-height: 100px;
+    padding: 20px 0 ;
+
+}
+.hero>:nth-child(3){
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Martel Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: rgb(255,255,255);
+    line-height: normal;
+
+}
+.hero>:nth-child(4){
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Martel Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: rgb(255,255,255);
+    padding: 10px;
+
+}
+.posters{
+    height: fit-content;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    font-size: larger;
+    font-weight: 400;
+    font-family: 'Martel Sans';
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+   
+}
+/* .posters > span:first-child {
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+} */
+.p1, .p2, .p3, .p4, .p5, .p6, .p7 {
+    width: 197px;
+    height: 276px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
+    position: relative;
+    z-index: 10;
+}
+
+.separation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(39, 26, 78);
+    padding: 20px;
+    margin: 10px 0;
+    gap: 20px;
+    border-radius: 0.7cm;
+    width: 300px;
+    position: relative;
+    height: 300px;
+}
+.separation > span:first-child{
+    font-size: 30px;
+    font-weight: 500 ;
+    font-style: normal;
+    line-height: normal;
+    color: rgb(255,255,255);
+    
+}
+.separation>p{
+    font-size: 16px;
+    font-weight: 400 ;
+    font-style: normal;
+    line-height: normal;
+    color: rgb(255,255,255);
+    height: 100px;
+    overflow: auto;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+    font-family: 'Martel Sans';
+    padding: 20px;
+    margin:10px 0;
+    gap: 10px;
+    margin: 0 auto;
+
+    width: max(1200px, 100%);
+}
+.faqs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    gap: 5px;
+    background-color: black;
+}
+.faqs>span{
+    display: flex;
+    align-items: center;
+    text-align: left space;
+    border: 1cm;
+    background-color: rgb(47, 46, 48);
+    width: 90vw;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400 ;
+    font-style: normal;
+    line-height: normal;
+    color: rgb(255,255,255);
+}
+.faqs>p{
+    color: white;
+    font-size:18px ;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 60px;
+}
+footer{
+    text-align: center;
+    color:white ;
+    background-color: rgb(196, 116, 116);
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+}
+.f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+}
+.f a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.f a:hover{
+    text-decoration: underline;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bottom a{
+    color: white;
+    text-decoration: none;
+}
+
+    
+
+
+    
+
